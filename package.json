@@ -1,0 +1,19 @@
+{
+  "devDependencies": {
+    "@playwright/test": "^1.56.1",
+    "@types/jest": "^30.0.0",
+    "@types/supertest": "^6.0.3",
+    "dotenv": "^17.2.3",
+    "jest": "^30.2.0",
+    "supertest": "^7.1.4",
+    "ts-jest": "^29.4.5",
+    "ts-node": "^10.9.2"
+  },
+  "scripts": {
+    "test:backend": "jest",
+    "test:e2e": "playwright test"
+  },
+  "dependencies": {
+    "mongoose": "^8.19.3"
+  }
+}
