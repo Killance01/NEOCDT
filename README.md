@@ -62,3 +62,12 @@ Permite abrir, consultar y renovar CDTs de forma 100% digital, mejorando la efic
 3. Ejecutar el servidor de desarrollo:
    ```bash
    npm run dev
+
+### **Base de Datos sin MongoDB shell instalado**
+   ```bash
+mongosh "mongodb+srv://neocdt.1evhcei.mongodb.net/" --apiVersion 1 --username isabelacabezas_db_user
+  ```
+### **Base de Datos con MongoDB shell instalado**
+```bash
+mongosh "mongodb+srv://neocdt.1evhcei.mongodb.net/" --apiVersion 1 --username isabelacabezas_db_user
+
